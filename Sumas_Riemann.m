@@ -2,7 +2,7 @@ lim_a=2;
 lim_b=6;
 num_inter=200;
 
-f=inline("2(x)-5");
+f=inline("4(x)+7");
 h=(lim_b-lim_a)/num_inter;
 x=lim_a:h:lim_b;
 int=0;
